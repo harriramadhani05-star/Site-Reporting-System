@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Report Site</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #134e5e, #71b280);
+    color:white;
+    text-align:center;
+}
+
+.container {
+    padding:30px 20px;
+}
+
+.header {
+    margin-bottom:30px;
+}
+
+.logo {
+    width:150px;
+    margin-bottom:10px;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    max-width:900px;
+    margin:auto;
+}
+
+.card {
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(12px);
+    border-radius:18px;
+    padding:25px;
+    text-decoration:none;
+    color:white;
+    transition: all 0.25s ease;
+    border:1px solid rgba(255,255,255,0.2);
+    cursor:pointer;
+}
+
+.card:hover {
+    transform:translateY(-6px) scale(1.02);
+    background:rgba(255,255,255,0.2);
+}
+
+.card:active {
+    transform: scale(0.95);
+}
+
+.icon {
+    font-size:35px;
+}
+
+.title {
+    font-weight:600;
+}
+
+.desc {
+    font-size:12px;
+    opacity:0.7;
+}
+
+footer {
+    margin-top:40px;
+    font-size:12px;
+    opacity:0.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+<img src="https://th.bing.com/th/id/R.b8591a9cd32e0d0dbc702afe9a93efe2?rik=1V8yk%2fxQnWlQKQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-S9b5ERAVVXI%2fUUU3QVNgdQI%2fAAAAAAAAKfs%2fVTv9EJQrrf4%2fs320%2fPT%2bHartono%2bRaya%2bMotor.jpg&ehk=XS8qHAOeqhekLy7Vo%2bBSCgXwLwU7V540CBzQvR%2brMBI%3d&risl=&pid=ImgRaw&r=0" class="logo">
+
+<h1>PT. HARTONO RAYA MOTOR</h1>
+<h2>SITE REPORTING SYSTEM</h2>
+<p>Silakan pilih divisi untuk mengisi laporan</p>
+<hr style="margin:20px auto; width:60%; opacity:0.2;">
+</div>
+
+<div class="grid">
+
+<a href="https://drive.google.com/drive/folders/105MTY2PisplRk3Wzyu2LDssbQHZo0BLp?usp=sharing" target="_blank" class="card">
+<div class="icon">🚛</div>
+<div class="title">OPERATIONAL</div>
+<div class="desc">Report ritase & aktivitas</div>
+</a>
+
+<a href="https://drive.google.com/drive/folders/1YcHpJ8AQbiqC3W2zhqSrU02Jc1ZOrxzV?usp=sharing" target="_blank" class="card">
+<div class="icon">🦺</div>
+<div class="title">HSE</div>
+<div class="desc">Safety & incident report</div>
+</a>
+
+<a href="https://drive.google.com/drive/folders/1GPDM6UMwaDJeANghV4OFMokc71NupbIm?usp=sharing" target="_blank" class="card">
+<div class="icon">⚙️</div>
+<div class="title">PLANT</div>
+<div class="desc">Unit & maintenance</div>
+</a>
+
+<a href="https://drive.google.com/drive/folders/1iSZzfART5UkhCm6V_2zpttB48hdAS8JC?usp=sharing" target="_blank" class="card">
+<div class="icon">📦</div>
+<div class="title">LOGISTIK & INVENTORY</div>
+<div class="desc">Warehouse & Logistik</div>
+</a>
+
+<a href="https://drive.google.com/drive/folders/1HeN3EGTU2Njnw5nXF4hCLdvW59YsaVbI?usp=drive_link" target="_blank" class="card">
+<div class="icon">👥</div>
+<div class="title">HRGA</div>
+<div class="desc">Absensi & kebutuhan GA</div>
+</a>
+
+<a href="https://drive.google.com/drive/folders/1RjhPHqXgOTUJ7Vv-y-RMwSaf8SOc-xbn?usp=sharing" target="_blank" class="card">
+<div class="icon">🛡️</div>
+<div class="title">SECURITY</div>
+<div class="desc">Pengamanan & kontrol akses</div>
+</a>
+
+</div>
+
+<footer>
+© 2026 Site Reporting System | PT. HARTONO RAYA MOTOR
+</footer>
+
+</div>
+
+</body>
+</html>
